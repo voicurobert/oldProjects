@@ -1,0 +1,5 @@
+                           ldpi     mdpi     hdpi     xhdpi    xxhdpi     xxxhdpi
+Launcher And Home          36*36    48*48    72*72    96*96    144*144    192*192
+Tab,Dialog and List        24*24    32*32    48*48    64*64    96*96      128*128
+Action Bar And Status Bar  18*18    24*24    36*36    48*48    72*72      96*96
+Background                 320*426  320*470  480*640  720*960  1080*1920  1080*1920

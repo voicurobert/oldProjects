@@ -1,0 +1,120 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Radio.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Radio"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"  
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+    <phone:PhoneApplicationPage.Resources>
+        <!-- Style for calculator buttons -->
+        <Style x:Key="CalculatorButtonStyle" TargetType="Button">
+            <Setter Property="FontSize" Value="36"/>
+            <Setter Property="FontFamily"
+        Value="{StaticResource PhoneFontFamilySemiLight}"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Width" Value="132"/>
+            <Setter Property="Height" Value="108"/>
+        </Style>
+    </phone:PhoneApplicationPage.Resources>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            
+            <TextBlock x:Name="ApplicationTitle" Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock Text="FM RADIO"
+Style="{StaticResource PhoneTextTitle0Style}"/>
+            <!-- A user control much like the time display from Alarm Clock -->
+            
+            <!-- The same calculator buttons from Tip Calculator, but with a
+power button instead of a 00 button -->
+            <Canvas x:Name="ButtonPanel" Height="396" Margin="-24,0">
+                <Button Style="{StaticResource CalculatorButtonStyle}"
+Background="{Binding CalculatorMainBrush, ElementName=Page}"
+Content="7" Canvas.Left="-6" Canvas.Top="-1"/>
+                <Button Style="{StaticResource CalculatorButtonStyle}"
+Background="{Binding CalculatorMainBrush, ElementName=Page}"
+Content="8" Canvas.Left="114" Canvas.Top="-1"/>
+                <Button Style="{StaticResource CalculatorButtonStyle}"
+Background="{Binding CalculatorMainBrush, ElementName=Page}"
+Content="9" Canvas.Left="234" Canvas.Top="-1"/>
+                <Button Style="{StaticResource CalculatorButtonStyle}"
+Background="{Binding CalculatorMainBrush, ElementName=Page}"
+Content="4" Canvas.Top="95" Canvas.Left="-6"/>
+                <Button Style="{StaticResource CalculatorButtonStyle}"
+Background="{Binding CalculatorMainBrush, ElementName=Page}"
+Content="5" Canvas.Top="95" Canvas.Left="114"/>
+                <Button Style="{StaticResource CalculatorButtonStyle}"
+Background="{Binding CalculatorMainBrush, ElementName=Page}"
+Content="6" Canvas.Top="95" Canvas.Left="234"/>
+                <Button Style="{StaticResource CalculatorButtonStyle}"
+Background="{Binding CalculatorMainBrush, ElementName=Page}"
+Content="1" Canvas.Top="191" Canvas.Left="-6"/>
+                <Button Style="{StaticResource CalculatorButtonStyle}"
+Background="{Binding CalculatorMainBrush, ElementName=Page}"
+Content="2" Canvas.Top="191" Canvas.Left="114"/>
+                <Button Style="{StaticResource CalculatorButtonStyle}"
+Background="{Binding CalculatorMainBrush, ElementName=Page}"
+Content="3" Canvas.Top="191" Canvas.Left="234"/>
+                <Button Style="{StaticResource CalculatorButtonStyle}"
+Background="{Binding CalculatorMainBrush, ElementName=Page}"
+Content="0" Canvas.Top="287" Canvas.Left="-6"/>
+                <Button Style="{StaticResource CalculatorButtonStyle}"
+Background="{Binding CalculatorMainBrush, ElementName=Page}"
+Content="power" Width="252" Canvas.Top="287" Canvas.Left="114"/>
+                <Button Style="{StaticResource CalculatorButtonStyle}" FontSize="32"
+FontFamily="{StaticResource PhoneFontFamilySemiBold}"
+Background="{Binding CalculatorSecondaryBrush, ElementName=Page}"
+Content="C" Height="204" Canvas.Top="-1" Canvas.Left="354"/>
+                <Button x:Name="BackspaceButton" Height="204"
+Style="{StaticResource CalculatorButtonStyle}"
+Background="{Binding CalculatorSecondaryBrush, ElementName=Page}"
+Canvas.Top="191" Canvas.Left="354">
+                    <!-- The “X in an arrow” backspace drawing -->
+                    <Canvas Width="48" Height="32">
+                        <Path x:Name="BackspaceXPath" Data="M24,8 39,24 M39,8 24,24"
+Stroke="{StaticResource PhoneForegroundBrush}"
+StrokeThickness="4"/>
+                        <Path x:Name="BackspaceBorderPath" StrokeThickness="2"
+Data="M16,0 47,0 47,31 16,31 0,16.5z"
+Stroke="{StaticResource PhoneForegroundBrush}"/>
+                    </Canvas>
+                </Button>
+            </Canvas>
+            <!-- A signal strength display -->
+            <TextBlock x:Name="SignalStrengthTextBlock" Margin="24"
+HorizontalAlignment="Center" />
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0"></Grid>
+    </Grid>
+ 
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>

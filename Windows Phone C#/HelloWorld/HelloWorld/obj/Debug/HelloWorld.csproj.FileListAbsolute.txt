@@ -1,0 +1,13 @@
+D:\Proiecte\Windows Phone C#\HelloWorld\HelloWorld\Bin\Debug\ApplicationIcon.png
+D:\Proiecte\Windows Phone C#\HelloWorld\HelloWorld\Bin\Debug\Background.png
+D:\Proiecte\Windows Phone C#\HelloWorld\HelloWorld\Bin\Debug\HelloWorld.dll
+D:\Proiecte\Windows Phone C#\HelloWorld\HelloWorld\Bin\Debug\HelloWorld.pdb
+D:\Proiecte\Windows Phone C#\HelloWorld\HelloWorld\Bin\Debug\AppManifest.xaml
+D:\Proiecte\Windows Phone C#\HelloWorld\HelloWorld\Bin\Debug\HelloWorld.xap
+D:\Proiecte\Windows Phone C#\HelloWorld\HelloWorld\obj\Debug\ResolveAssemblyReference.cache
+D:\Proiecte\Windows Phone C#\HelloWorld\HelloWorld\obj\Debug\App.g.i.cs
+D:\Proiecte\Windows Phone C#\HelloWorld\HelloWorld\obj\Debug\HelloWorld.g.resources
+D:\Proiecte\Windows Phone C#\HelloWorld\HelloWorld\obj\Debug\HelloWorld.dll
+D:\Proiecte\Windows Phone C#\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+D:\Proiecte\Windows Phone C#\HelloWorld\HelloWorld\obj\Debug\XapCacheFile.xml
+D:\Proiecte\Windows Phone C#\HelloWorld\HelloWorld\obj\Debug\MyFirstXamlPage.g.i.cs

@@ -1,0 +1,27 @@
+1370978801828	Extracts string 'null' into R.string.button_accel
+1370978865337	Extracts string 'null' into R.string.button_roti
+1370978942463	Extracts string 'null' into R.string.button_butoane
+1370979003249	Extracts string 'null' into R.string.button_atingere
+1370979054768	Extracts string 'null' into R.string.button_settings
+1370979095315	Extracts string 'null' into R.string.button_about
+1370979417597	Extracts string 'null' into R.string.textview_about
+1370980113270	Extracts string 'null' into R.string.button_forward
+1370980147471	Extracts string 'null' into R.string.button_backwards
+1370980166019	Extracts string 'null' into R.string.button_left
+1370980180168	Extracts string 'null' into R.string.button_right
+1371028956150	Rename field 'button1'
+1371028964187	Rename field 'button3'
+1371028970498	Rename field 'button5'
+1371028976139	Rename field 'button6'
+1371062079569	Rename field 'buttonAccel'
+1371062088020	Rename field 'buttonButoane'
+1371062094788	Rename field 'button4'
+1371062102566	Rename field 'button2'
+1371065226853	Rename field 'textView1'
+1371065269550	Extracts string 'null' into R.string.textView_Info
+1371065323872	Extracts string 'null' into R.string.checkBox_ConnLost
+1371065385499	Extracts string 'null' into R.string.textView_DupaSecunde
+1371065461648	Extracts string 'null' into R.string.button_ReadData
+1371065473640	Extracts string 'null' into R.string.button_WriteData
+1371065498557	Rename field 'button2'
+1371065506605	Rename field 'button1'

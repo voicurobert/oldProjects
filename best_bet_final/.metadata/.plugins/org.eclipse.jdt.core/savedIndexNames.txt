@@ -1,0 +1,6 @@
+INDEX VERSION 1.126+E:\_\Proiecte\best_bet_final\.metadata\.plugins\org.eclipse.jdt.core
+2329222628.index
+1284074322.index
+1262233384.index
+3325256074.index
+2132305320.index

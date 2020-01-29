@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jFormattedTextField2"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Personalizare preferinte client"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosed" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosed"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="criteriu1Label" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="criteriu2Label" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="criteriu3Label" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="criteriu4Label" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="criteriu5Label" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="criteriu7Label" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="criteriu8Label" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="criteriu6Label" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="criteriu4TextField" max="32767" attributes="0"/>
+                          <Component id="criteriu5TextField" max="32767" attributes="0"/>
+                          <Component id="criteriu6TextField" max="32767" attributes="0"/>
+                          <Component id="criteriu7TextField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="criteriu8TextField" alignment="0" pref="62" max="32767" attributes="0"/>
+                          <Component id="criteriu1ComboBox" alignment="0" max="32767" attributes="0"/>
+                          <Component id="criteriu2ComboBox" alignment="0" max="32767" attributes="0"/>
+                          <Component id="criteriu3ComboBox" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
+                      <Component id="insertClientButton" min="-2" pref="160" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="97" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="criteriu1Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="criteriu1ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="criteriu2Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="criteriu2ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="criteriu3Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="criteriu3ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="criteriu4Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="criteriu4TextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="criteriu5Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="criteriu5TextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="criteriu6Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="criteriu6TextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="criteriu7Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="criteriu7TextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="criteriu8Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="criteriu8TextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="43" max="32767" attributes="0"/>
+              <Component id="insertClientButton" min="-2" pref="60" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="insertClientButton">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="66" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Consolas" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;p align=&quot;center&quot;&gt;Trimite preferinte catre agentul Furnizor &lt;/p&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="insertClientButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="criteriu1Label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Consolas" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Criteriu 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="criteriu2Label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Consolas" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Criteriu 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="criteriu3Label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Consolas" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Criteriu 3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="criteriu4Label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Consolas" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Criteriu 4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="criteriu5Label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Consolas" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Criteriu 5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="criteriu6Label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Consolas" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Criteriu 6"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="criteriu7Label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Consolas" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Criteriu 7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="criteriu8Label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Consolas" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Criteriu 8"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="criteriu4TextField">
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="criteriu5TextField">
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="criteriu6TextField">
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="criteriu7TextField">
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="criteriu8TextField">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="criteriu1ComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="criteriu2ComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="criteriu3ComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

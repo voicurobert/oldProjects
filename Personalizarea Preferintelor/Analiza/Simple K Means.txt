@@ -1,0 +1,11 @@
+SIMPLE K MEANS 
+
+Stepts:
+1 - Se alege numarul de clustere
+2 - Se aleg aleatoriu valorile pentru centroizi
+3 - Se calculeaza distantele de la clienti la centroizi folosind distanta Euclidiana
+4 - Se face repartizarea clientilor in clusterul fata de cel mai apropiat centroid
+5 - Se calculeaza noul centroid pentru fiecare cluster 
+6 - Se reia algoritmul de la pasul 3
+7 - Se realizeaza pasul 6 de 100 de ori
+

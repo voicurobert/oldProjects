@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Singular Floods:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Singular_Floods_jar</output-path>
+    <root id="archive" name="Singular Floods.jar">
+      <element id="module-output" name="Singular Floods" />
+    </root>
+  </artifact>
+</component>

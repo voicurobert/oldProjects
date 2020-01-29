@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Best Bet</string>
+    <string name="action_settings">Settings</string>
+    <string name="regId_tv">Reg id:</string>
+    <string name="action_about">About Us</string>
+    <string name="action_how_to">How To Use</string>
+    <string name="about_us_label">About us</string>
+    <string name="how_to_label">How To Use</string>
+    <string name="today_ticket_button">Today\'s Ticket</string>
+    <string name="ticket_history_button">Ticket History</string>
+    <string name="today_ticket_label">Today\'s Ticket</string>
+    <string name="ticket_history_label">Ticket History</string>
+    <string name="lion_ticket_label">Lion Ticket</string>
+    <string name="tiger_ticket_label">Tiger Ticket</string>
+
+</resources>

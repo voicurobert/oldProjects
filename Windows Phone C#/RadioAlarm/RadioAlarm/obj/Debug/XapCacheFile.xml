@@ -1,0 +1,13 @@
+﻿<xapCache source="D:\Proiecte\Windows Phone C#\RadioAlarm\RadioAlarm\Bin\Debug\RadioAlarm.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="8/27/2012 9:00:20 PM">
+  <file source="D:\Proiecte\Windows Phone C#\RadioAlarm\RadioAlarm\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="6/26/2012 9:28:23 PM" />
+  <file source="D:\Proiecte\Windows Phone C#\RadioAlarm\RadioAlarm\Background.png" archivePath="Background.png" lastWriteTime="6/26/2012 9:00:52 PM" />
+  <file source="D:\Proiecte\Windows Phone C#\RadioAlarm\RadioAlarm\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="6/26/2012 9:00:52 PM" />
+  <file source="D:\Proiecte\Windows Phone C#\RadioAlarm\RadioAlarm\obj\Debug\RadioAlarm.dll" archivePath="RadioAlarm.dll" lastWriteTime="8/27/2012 9:00:20 PM" />
+  <file source="C:\Program Files\Microsoft SDKs\Windows Phone\v7.1\Toolkit\Oct11\Bin\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="10/6/2011 11:33:14 AM" />
+  <file source="C:\Program Files\Microsoft SDKs\IIS Smooth Streaming Client\v1.1\Windows Phone\Microsoft.Web.Media.SmoothStreaming.dll" archivePath="Microsoft.Web.Media.SmoothStreaming.dll" lastWriteTime="9/23/2010 3:41:38 PM" />
+  <file source="C:\Program Files\Microsoft SDKs\Windows Phone\v7.1\Libraries\Silverlight\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="9/15/2011 3:36:26 PM" />
+  <file source="D:\Proiecte\Windows Phone C#\RadioAlarm\RadioAlarm\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="6/26/2012 9:00:52 PM" />
+  <file source="D:\Proiecte\Windows Phone C#\RadioAlarm\RadioAlarm\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="6/26/2012 9:14:40 PM" />
+  <file source="D:\Proiecte\Windows Phone C#\RadioAlarm\RadioAlarm\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="6/26/2012 9:14:40 PM" />
+  <file source="D:\Proiecte\Windows Phone C#\RadioAlarm\RadioAlarm\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="6/27/2012 7:21:14 PM" />
+</xapCache>

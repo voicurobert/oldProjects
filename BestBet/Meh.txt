@@ -1,0 +1,3 @@
+1. aplicatie care aduna toate restaurantele de livrare in functie de locatie + arie
+2. aplicatie care aduna toate bancomatele tuturor bancilor in functie de locatie + arie
+voice over IP application - smallworld 

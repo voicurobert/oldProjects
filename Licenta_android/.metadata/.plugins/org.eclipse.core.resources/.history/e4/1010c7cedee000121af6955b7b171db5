@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true" >
+
+    <Button
+        android:id="@+id/button_Accelerometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="27dp"
+        android:layout_toRightOf="@+id/button_Left"
+        android:text="@string/button_forward" />
+
+    <Button
+        android:id="@+id/button_Left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_Accelerometer"
+        android:layout_marginLeft="32dp"
+        android:text="@string/button_left" />
+
+    <Button
+        android:id="@+id/button_Right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_Accelerometer"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/button_Backward"
+        android:text="@string/button_right" />
+
+    <Button
+        android:id="@+id/button_Backward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_Right"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_backwards" />
+
+</RelativeLayout>

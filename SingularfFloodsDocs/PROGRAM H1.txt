@@ -1,0 +1,142 @@
+PROGRAM H1;
+USES CRT;
+LABEL L4740,L4560,L4720,L4620,L4680,L4200,L4260;
+VAR
+    T9,T0,L1,T2,L0,I,G,h:INTEGER;
+    T,K,R1,R2,R3,R4,A0,R0,W,W1,B0,C0,P3,T4,T5,P4,P5,P6,G1,R5,R6,E1,F1,T3,W2,P7,P8,Q1,G0,T1:REAL;
+  A:ARRAY[1..5000] OF REAL;
+  
+BEGIN
+    CLRSCR;
+    writeln( 'bla' );
+    WRITELN(' Dati durata totala a viiturii: ');
+    //READLN(T9);
+    T9:= 24;
+    WRITELN(' Dati durata de crestere a hidrografului in ore: ');
+    // READLN(T0);
+    T0:= 10;
+    WRITELN(' Dati debitul maxim al hidrografului: ');
+    // READLN(Q1);
+    Q1:= 300;
+    WRITELN(' Dati coeficientul de forma a hidrografului GAMA: ');
+    //READLN(G0);
+    G0:= 0.9;
+    
+    W:=G0*Q1*T9;
+    
+    WRITELN(' Dati pasul de calcul al debitelor: ');
+    //READLN(T);
+    WRITELN( 'W: ', W );
+    T:=1;
+    //assign(f,'h:\holc01.dat');
+    //rewrite(f);
+    BEGIN
+        T1:=T9/T0;
+       
+        W1:=G0*T1;
+       
+        FOR L1:=1 TO 60 DO
+            BEGIN
+            
+            R1:=T1-1;
+           
+            R2:=4*L1*R1-(R1-1)*(R1-1);
+            
+            IF R2>=0 THEN
+                BEGIN
+                    R3:=SQRT(R2);
+                    R4:=((L1+1)*(R1-1)*LN(R1))/(L1*L1);
+                 
+                    R5:=( ( L1+1 ) * ( R2 - 2 * L1 * R1 ) ) / ((L1*L1)*R3);
+                    R6:=ARCTAN((2*L1*R1+R1-1)/R3)-ARCTAN((R1-1-2*L1)/R3);
+                
+                    E1:=R4+R5*R6-T1/L1;
+                    
+                    IF E1=W1 THEN
+                        GOTO L4680;
+                    ;
+               
+                    IF E1>W1 THEN
+                        GOTO L4200;
+                    ;
+                
+                    GOTO L4260;
+                    L4200:
+                        T2:=L1;
+                        T3:=E1;
+                    L4260:
+                END;
+        END;
+        WRITELN( '###########################            second for' );
+        writeln( 'T2: ', T2 );
+        FOR L0:=1 TO 500 DO
+            BEGIN
+                WRITELN( 'L0: ', L0 );
+                F1:=T2+0.01*L0;
+                P7:=T1-1;
+                P8:=4*F1*P7-(P7-1)*(P7-1);
+                P8:=abs(P8);
+                P3:=SQRT(P8);
+                P4:=((F1+1)*(P7-1)*Ln(P7))/(F1*F1);
+                P5:=((F1+1)*(P8-2*F1*P7))/((F1*F1)*P3);
+                P6:=ArcTan((2*F1*P7+P7-1)/P3)-ArcTan((P7-1-2*F1)/P3);
+                G1:=P4+P5*P6-T1/F1;
+                WRITELN('G1: ', G1);
+                
+                IF G1=W1 THEN
+                    GOTO L4720;
+                ;
+                
+                IF G1>W1 THEN
+                    GOTO L4620;
+                ;
+                IF L0 <> 1 THEN
+                    
+                    GOTO L4560;
+                ;
+               
+                R0:=((F1-T2)*(T3-W1))/(T3-G1);
+                A0:=T2+R0;
+             
+                GOTO L4740;
+                L4560:
+                    R0:=((F1-T4)*(T5-W1))/(T5-G1);
+                    A0:=T4+R0;
+                    GOTO L4740;
+                L4620:
+                    
+                    T4:=F1;
+                    T5:=G1;
+            END;
+            
+        
+        L4680:
+            A0:=L1;
+            GOTO L4740;
+        L4720:
+            A0:=F1;
+        L4740:
+            B0:=T1-2-2*A0;
+            C0:=A0+1;
+            L0:=0;
+            K:=0;
+            W2:=0;
+            WRITELN('HIDROGRAFUL UNDEI DE VIITURA ');
+            G:=1;
+            h:=0;
+         
+            REPEAT
+                L0:=L0+1;
+                h:=h+1;
+                A[L0]:=K*(T9-K)/(A0*K*K+B0*T0*K+C0*T0*T0)*Q1;
+                W2:=W2+A[L0]*T;
+                WRITELN(K:4:1,'.',' ',A[L0]:6:2);
+                K:=K+T;
+                writeln('K ', K);
+            UNTIL K>T9;
+            WRITELN('VERIFICARE :');
+            WRITELN('V',' ','=',' ',W:8:2,'mc');
+            WRITELN('Vcalc',' ','=',' ',W2:8:2,'mc');
+     
+    END;
+END.

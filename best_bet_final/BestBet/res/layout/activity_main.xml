@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.robert.bestbet.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/regId_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regId_tv" />
+
+    <Button
+        android:id="@+id/todayTicket_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/today_ticket_button" 
+        android:width="150dp" />
+
+    <Button
+        android:id="@+id/ticketHistory_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ticket_history_button" 
+        android:width="150dp" />
+
+</LinearLayout>
